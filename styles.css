@@ -1,0 +1,107 @@
+
+
+
+body {
+  text-align: center;
+  background-color: #333333;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+  padding-top: 10rem;
+}
+
+.w {
+  background: url(./images/tom1.png);
+}
+
+.a {
+  background: url(./images/tom2.png);
+}
+
+.s {
+  background: url(./images/tom3.png);
+}
+
+.d {
+  background: url(./images/tom4.png);
+}
+
+.j {
+  background: url(./images/crash.png);
+}
+
+.k {
+  background: url(./images/kick.png);
+}
+
+.l {
+  background: url(./images/snare.png);
+}
+
+.set {
+  margin: 4% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+  
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 4rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 800;
+  color: black;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 30px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.drum:hover {
+  box-shadow: 5px 14px 15px black, 0 0 5px whitesmoke, 0 0 5px darkblue;
+}
+.set {
+  width: 100%;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .set {
+    width: 30%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .set {
+    width: 100%;
+  }
+}
