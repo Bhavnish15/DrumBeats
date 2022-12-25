@@ -85,9 +85,7 @@ footer {
   transition: 0.3s ease-in-out;
 }
 
-.drum:hover {
-  box-shadow: 5px 14px 15px black, 0 0 5px whitesmoke, 0 0 5px darkblue;
-}
+
 .set {
   width: 100%;
 }
