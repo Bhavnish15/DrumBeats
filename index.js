@@ -65,7 +65,7 @@ function buttonAnimation(currentKey) {
 
   setTimeout(function () {
     activeButton.classList.remove("pressed");
-  }, 230);
+  }, 110);
   activeButton.classList.add(
     "animate__animated",
     "animate__heartBeat",
